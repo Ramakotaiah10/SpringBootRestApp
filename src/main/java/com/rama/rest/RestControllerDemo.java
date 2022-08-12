@@ -10,6 +10,6 @@ public class RestControllerDemo {
 	@GetMapping("welcome/{name}")
 	public String hello(@PathVariable String name)
 	{
-		return "Hello "+name+" Welcome to Spring boot Rest with Jenkins...!!";
+		return "Hi "+name+" Welcome to Spring boot Rest with Jenkins...!!";
 	}
 }
