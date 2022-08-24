@@ -11,6 +11,6 @@ public class RestControllerDemo {
 	public String hello(@PathVariable String name)
 	{
 	    String msg="Prem how are you...";
-		return "Hi "+msg+" Welcome to Spring boot Rest with Jenkins...!!";
+		return "Hi "+msg+"  Welcome to Spring boot Rest with Jenkins...!!";
 	}
 }
